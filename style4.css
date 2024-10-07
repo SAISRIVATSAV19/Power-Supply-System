@@ -1,0 +1,27 @@
+.power-supply-card {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.power-supply-card:hover {
+    transform: scale(1.05);
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+.btn-on {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-off {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-settings {
+    background-color: #007bff;
+    color: white;
+}

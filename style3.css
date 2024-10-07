@@ -1,0 +1,70 @@
+.container {
+  margin-top: 20px;
+}
+/* Set height and make power-supply-container scrollable */
+#scrollable-container {
+  height: 500px; /* Adjust height to your preference */
+  overflow-y: auto; /* Enable vertical scrolling */
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+/* Style for the power supply box */
+.power-supply {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+/* On/Off Button Styling */
+.btn-on {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-off {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+
+/* Aligns the buttons to center and spaces them evenly */
+.col.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Label Styling */
+label {
+  font-weight: bold;
+}
+
+/* Margin for the input fields */
+input.form-control {
+  margin-bottom: 10px;
+}
+
+/* Custom heading */
+h3.text-center {
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Center Update Systems Button */
+#updateSystemCount {
+  display: block;
+  margin: 0 auto;
+}
+
+#saveAndNavigate {
+  display: block;
+  margin: 0 auto;
+}
+
